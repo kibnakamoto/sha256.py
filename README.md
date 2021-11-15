@@ -19,12 +19,19 @@ all binary numbers are used with base 2.
 
 Equations:
   Ch(X, Y, Z) = (X & Y ) ⊕ (~X & Z)
+  
   Maj(X, Y, Z) = (X & Y ) ⊕ (X & Z) ⊕ (Y & Z)
+  
   capital sigma 0 = Σ0: r_rotate(X, 2) ⊕ r_rotate(X, 13) ⊕ r_rotate(X, 22)
+  
   capital sigma 1 = Σ1: r_rotate(e, 6) ⊕ r_rotate(e, 11) ⊕ r_rotate(e, 25)
+  
   small sigma 0 = σ0: r_rotate(X, 7) ⊕ r_rotate(X, 18) ⊕ r_shift(X, 3)
+  
   small sigma 1 = σ1: r_rotate(X, 17) ⊕ r_rotate(X, 19) ⊕ r_shift(X, 10)
+  
   T1 = h + Σ1(e) + Ch(e, f, g) + K[i] + W[i]
+  
   T2 = Σ0(a) + Maj(a, b, c)
   
   
