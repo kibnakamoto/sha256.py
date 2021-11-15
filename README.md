@@ -35,6 +35,7 @@ Equations:
   T2 = Σ0(a) + Maj(a, b, c)
   
   
+  
   constants:
         # 2**32 times the cube root of the first 64 primes
         K = [
