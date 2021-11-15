@@ -6,16 +6,24 @@ The purpose of the code was to better understand the algorithm and learn how to 
 This code was written in: nov 14, 2021. I am/was 15 when I wrote this code.
 By: Taha Canturk (Kibnakamoto in github)
 
+
 The operations used:
+
   XOR(): ^ (⊕)
+  
   rightrotate:  (r_rotate function)
+  
   rightshift: (r_shift function)
+  
   bitwise and = &
+  
   bitwise complement = ~
+
+
+all binary numbers are used with base 2.
 
 X, Y, Z = w[index]
 
-all binary numbers are used with base 2.
 
 Equations:
   Ch(X, Y, Z) = (X & Y ) ⊕ (~X & Z)
