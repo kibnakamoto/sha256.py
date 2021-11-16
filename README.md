@@ -6,6 +6,7 @@ The purpose of the code was to better understand the algorithm and learn how to 
 This code was written in: nov 14, 2021. I am/was 15 when I wrote this code.
 By: Taha Canturk (Kibnakamoto in github)
 
+Information: Sha256 algorithm is a hashing algorithm made by National security agency in 2001. It is a 256 bit hashing algorithm that always has the length of 64 no matter the length of the message.
 
 The operations used:
 
