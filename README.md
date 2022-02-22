@@ -6,6 +6,10 @@ The purpose of the code was to better understand cryptographic algorithms and le
 This code was written in: nov 14, 2021. I am/was 15 when I wrote this code.
 By: Taha Canturk (Kibnakamoto in github)
 
+Supports multi-block processing
+
+Added multi-block processing in Feb 21, 2022
+
 Information: Sha256 algorithm is a hashing algorithm made by National security agency in 2001. It is the 256-bit SHA-2 hashing algorithm.
 
 The operations used:
@@ -72,5 +76,4 @@ Equations:
         h5 = 0x9b05688c
         h6 = 0x1f83d9ab
         h7 = 0x5be0cd19
-
-Supports multi-block processing
+        
