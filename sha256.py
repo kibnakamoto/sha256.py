@@ -116,12 +116,8 @@ class sha256:
         
         # add ascii value of msg length to zFill
         self.addlen = self.zFill + format(len(self.convertToBytes), '08b').zfill(64)[0:64]
-        addtoW = [self.addlen[i:i+32] # seperated each 32 bits into a list; Each entry = 32 bits.
+        self.W = [self.addlen[i:i+32] # seperated each 32 bits into a list; Each entry = 32 bits.
                   for i in range(0, len(self.addlen), 32)]
-        
-        # length of self.W is always 64 no matter the length of message
-        self.W = addtoW + [''.zfill((64 - len(addtoW))*32)[i:i+32]
-                          for i in range(0, 64 - len(addtoW))]
         
         # hexadecimal final digest in string format
         digest = lambda hVal : str(hex(hVal))[2:].zfill(8)
