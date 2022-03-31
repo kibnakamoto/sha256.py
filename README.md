@@ -3,7 +3,10 @@ This program of the sha256 algorithm in python doesn't use any modules.
 
 The purpose of the code was to better understand cryptographic algorithms and learn how to implement hashing algorithms since there isn't standard library available for algorithms like this in c++.
 
-This code was written in: nov 14, 2021. I am/was 15 when I wrote this code.
+This code was written in: nov 14, 2021. 
+
+I am/was 15 when I wrote this code.
+
 By: Taha Canturk (Kibnakamoto in github)
 
 Supports multi-block processing
